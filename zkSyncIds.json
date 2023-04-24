@@ -1,0 +1,87 @@
+{
+  "ethereum": {
+    "chainId": 101,
+    "endpoint": "0x66A71Dcef29A0fFBDBE3c6a460a3B5BC225Cd675"
+  },
+  "bnb_chain": {
+    "chainId": 102,
+    "endpoint": "0x3c2269811836af69497E5F486A85D7316753cf62"
+  },
+  "avalanche": {
+    "chainId": 106,
+    "endpoint": "0x3c2269811836af69497E5F486A85D7316753cf62"
+  },
+  "aptos": {
+    "chainId": 108,
+    "endpoint": "0x54ad3d30af77b60d939ae356e6606de9a4da67583f02b962d2d3f2e481484e90",
+    "layerzero_apps": "0x43d8cad89263e6936921a0adb8d5d49f0e236c229460f01b14dca073114df2b9"
+  },
+  "polygon": {
+    "chainId": 109,
+    "endpoint": "0x3c2269811836af69497E5F486A85D7316753cf62"
+  },
+  "arbitrum": {
+    "chainId": 110,
+    "endpoint": "0x3c2269811836af69497E5F486A85D7316753cf62"
+  },
+  "optimism": {
+    "chainId": 111,
+    "endpoint": "0x3c2269811836af69497E5F486A85D7316753cf62"
+  },
+  "fantom": {
+    "chainId": 112,
+    "endpoint": "0xb6319cC6c8c27A8F5dAF0dD3DF91EA35C4720dd7"
+  },
+  "swimmer": {
+    "chainId": 114,
+    "endpoint": "0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4"
+  },
+  "dfk": {
+    "chainId": 115,
+    "endpoint": "0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4"
+  },
+  "harmony": {
+    "chainId": 116,
+    "endpoint": "0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4"
+  },
+  "moonbeam": {
+    "chainId": 126,
+    "endpoint": "0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4"
+  },
+  "celo": {
+    "chainId": 125,
+    "endpoint": "0x3A73033C0b1407574C76BdBAc67f126f6b4a9AA9"
+  },
+  "dexalot": {
+    "chainId": 118,
+    "endpoint": "0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4"
+  },
+  "gnosis": {
+    "chainId": 145,
+    "endpoint": "0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4"
+  },
+  "klaytn": {
+    "chainId": 150,
+    "endpoint": "0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4"
+  },
+  "metis": {
+    "chainId": 151,
+    "endpoint": "0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4"
+  },
+  "intain": {
+    "chainId": 152,
+    "endpoint": "0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4"
+  },
+  "core_dao": {
+    "chainId": 153,
+    "endpoint": "0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4"
+  },
+  "okx": {
+    "chainId": 155,
+    "endpoint": "0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4"
+  },
+  "zkevm_polygon": {
+    "chainId": 158,
+    "endpoint": "0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4"
+  }
+}
