@@ -44,6 +44,7 @@ module.exports = {
     moonbeam: {
       url: 'https://rpc.api.moonbeam.network',
       accounts: wallets.keys,
+      gasMultiplier: 1.3
 
 
     },
@@ -125,7 +126,8 @@ task("deploy-LZ", "Deploy && bridge Layer Zero")
   .addParam('bridgenetwork', 'Network to bridge. Network endpoint must be different. Details https://layerzero.gitbook.io/docs/technical-reference/mainnet/supported-chain-ids')
   .addParam('ether', 'Required  ether from 0.5 to 1.5 depend of load network')
   .setAction(async (taskArgs) => {
-
+    const { main } = require('./smart_contract/scripts/bridgeLayerZero.js')
+    await main(taskArgs['bridgenetwork'], taskArgs['ether']);
 
   });
 
