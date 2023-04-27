@@ -12,7 +12,6 @@ exports.main = async () => {
 
   for (const signer of signers) {
     try {
-      console.log(signer.address)
       const deployed = await Default.connect(signer).deploy('Test message');
       await deployed.deployed();
       console.log("DefaultContract deployed to:", deployed.address);

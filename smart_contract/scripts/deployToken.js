@@ -15,7 +15,7 @@ exports.main = async () => {
     try {
 
 
-      const deployed = await Token.deploy();
+      const deployed = await Token.connect(signer).deploy();
       await deployed.deployed();
       console.log("DeployToken deployed to:", deployed.address);
 
